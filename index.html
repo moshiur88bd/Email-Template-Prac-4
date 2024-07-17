@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RoheetSky HTML Email Template</title>
+<title>Modern HTML Email Template</title>
 <style type="text/css">
 	body {
 		margin: 0;
@@ -18,12 +18,12 @@
 	}
 	img {
 		border: 0;
-	} 
+	}
 	.wrapper{
 		width: 100%;
 		table-layout: fixed;
 		background-color: #cccccc;
-		padding-bottom: 40px;
+		padding-bottom: 60px;
 	}
 	.main{
 		background-color: #ffffff;
@@ -31,173 +31,258 @@
 		width: 100%;
 		max-width: 600px;
 		border-spacing: 0;
-		color: #4a4a4a;
+		font-family: sans-serif;
+		color: #171a1b;
 	}
 	.two-columns{
 		text-align: center;
 		font-size: 0;
-		padding: 40px 0;
 	}
-	.column{
+	.two-columns .column{
 		width: 100%;
 		max-width: 300px;
 		display: inline-block;
 		vertical-align: top;
 		text-align: center;
-		font-size: 18px;
-		padding-bottom: 40px;
+	}
+	.three-columns{
+		text-align: center;
+		font-size: 0;
+		padding: 15px 0 25px;
+	}
+	.three-columns .column{
+		width: 100%;
+		max-width: 200px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+	.padding{
+		padding: 15px;
+	}
+	.content{
+		font-size: 15px;
+		line-height: 20px;
+		padding: 0 5px;
+	}
+	.two-columns .last{
+		padding: 15px 0;
+	}
+	.two-columns .padding{
+		padding: 20px;
+	}
+	.two-columns .content{
+		font-size: 15px;
+		line-height: 20px;
+		text-align: left;
 	}
 	.button{
-		background-color: #464646;
-		color: #ffffff;
+		background-color: #ffffff;
 		text-decoration: none;
-		padding: 15px 20px;
+		padding: 12px 20px;
 		border-radius: 5px;
+		font-weight: bold;
+		color: #171a1b;
 	}
+
 </style>
 </head>
 <body>
 	<center class="wrapper">
+		<table width="100%" class="main">
 
-		<table class="main" width="100%">
-
-
-<!-- BROWN BORDER -->
-		<tr>
-			<td height="10" style="background-color: #b8714e;"></td>
-		</tr>
+<!-- TOP BORDER -->
+			<tr>
+				<td height="8" style="background-color: #171a1b;"></td>
+			</tr>
 
 <!-- LOGO SECTION -->
-		<tr>
-			<td>
-				<table width="100%">
-					<tr>
-						<td style="text-align: center; padding: 15px;">
-							<a href="#" target="_blank"><img src="/img/apparel.png" alt="Apparel Logo" title="Apparel" width="180px"></a>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
+			<tr>
+				<td style="padding: 14px 0 4px;">
+					<table width="100%">
+						<tr>
+							<td class="two-columns">
+								<table class="column">
+									<tr>
+										<td style="padding: 0 62px 10px;">
+											<a href="#"><img src="/img/modern.jpg" width="180" alt="Logo Image" title="Logo"></a>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td style="padding: 10px 72px;">
+											<a href="#"><img src="/img/black-facebook.png" alt="" width="30"></a>
+											<a href="#"><img src="/img/black-twitter.png" alt="" width="30"></a>
+											<a href="#"><img src="/img/black-youtube.png" alt="" width="30"></a>
+											<a href="#"><img src="/img/black-linkedin.png" alt="" width="30"></a>
+											<a href="#"><img src="/img/black-instagram.png" alt="" width="30"></a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
 
 <!-- BANNER IMAGE -->
-		<tr>
-			<td>
-				<a href="#"><img src="/img/banner.jpg" alt="Banner Image" width="600" style="max-width: 100%;"></a>
-			</td>
-		</tr> 
+			<tr>
+				<td>
+					<a href="#"><img src="/img/banner.jpg" alt="Baner Image" title="Banner Image" width="100%" style="max-width: 100%;"></a>
+				</td>
+			</tr>
 
-<!-- BACKGROUND COLOR TEXT -->
-		<tr>
-			<td>
-				<table width="100%">
-					<tr>
-						<td style="text-align: center; font-size: 25px; font-weight: 600; background-color: #b8714e; color:#ffffff;">
-							<p>SHOP OUR LATEST DEALS</p>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
+<!-- THREE COLUMN SECTION -->
+	<tr>
+		<td>
+			<table width="100%">
+				<tr>
+					<td class="three-columns">
+						<table class="column">
+							<tr>
+								<td class="padding">
+									<table class="content">
+										<tr>
+											<td style="text-align: center;">
+												<a href="#"><img src="/img/email.png" alt="" width="130" style="max-width: 130px;"></a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p style="font-weight: bold; font-size: 17px;">Ecommerce</p>
+												<p>Responsive HTML Template Course fo Master Email Development.</p>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+
+						<table class="column">
+							<tr>
+								<td class="padding">
+									<table class="content">
+										<tr>
+											<td>
+												<a href="#"><img src="/img/home.png" alt="" width="130" style="max-width: 130px;"></a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p style="font-weight: bold; font-size: 17px;">HTML EMAIL</p>
+												<p>Responsive HTML Template Course fo Master Email Development.</p>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+
+						<table class="column">
+							<tr>
+								<td class="padding">
+									<table class="content">
+										<tr>
+											<td>
+												<a href="#"><img src="/img/settings.png" alt="" width="130" style="max-width: 130px;"></a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<p style="font-weight: bold; font-size: 17px">Web Development</p>
+												<p>Responsive HTML Template Course fo Master Email Development.</p>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>			
 
 <!-- TWO COLUMN SECTION -->
-		<tr>
-			<td>
-				<table width="100%">
-					<tr>
-						<td class="two-columns">
-							<table class="column">
-								<tr>
-									<td>
-										<a href="#"><img src="/img/women.jpg" alt="Women-Image" width="300" style="max-width: 100%; padding-bottom: 40px;"></a>
-										<a href="#" class="button">SHOP WOMENS</a>
-									</td>
-								</tr>
-							</table>
-							<table class="column">
-								<tr>
-									<td>
-										<a href="#"><img src="/img/men.jpg" alt="Men Image" width="300" style="max-width: 100%; padding-bottom: 40px;"></a>
-										<a href="#" class="button">SHOP MENS</a>
-									</td>
-								</tr>
-							</table>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
+	<tr>
+		<td style="background-color: #26292b; color: #ffffff;">
+			<table width="100%">
+				<tr>
+					<td class="two-columns last">
+						<table class="column">
+							<tr>
+								<td class="padding">
+									<table class="content">
+										<tr>
+											<td>
+												<a href="#"><img src="/img/keyboard.jpg" alt="" width="260" style="max-width: 260px; border-radius: 10px;"></a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						<table class="column">
+							<tr>
+								<td class="padding">
+									<table class="content">
+										<tr>
+											<td>
+												<p style="font-weight: bold; font-size: 18px;">Create Custom Designs</p>
+												<p style="padding-bottom: 16px;">Over the years we have built up a massive portfolio our client website and email designs</p>
+												<a href="#" class="button">Read More</a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+
+<!-- TITLE, TEXT & BUTTON -->
+	<tr>
+		<td style="padding: 15px 0 50px;">
+			<table width="100%">
+				<tr>
+					<td style="text-align: center; padding: 18px;">
+						<p style="font-size: 14px; font-weight: bold; ">HTML Email Template Course</p>
+						<p style="font-size: 16px; line-height: 23px; padding: 5px 0 15px;">Responsive HTML Email Template that you can build around. Responsive HTML Email Template that you can build around. Responsive HTML Email Template that you can build around. Responsive HTML Email Template that you can build around.</p>
+						<a class="button" href="#" style="background-color: #171a1b; color: #ffffff;">View Course</a>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
 
 <!-- FOOTER SECTION -->
-		<tr>
-			<td style="background-color: #efefef; text-align: center;">
-				<table width="100%">
-					<tr>
-						<td height="3" style="background-color: #969696;"></td>
-					</tr>
-					<tr>
-						<td style="font-size: 15px; padding: 5px ;">
-							<p>NEW ARRIVALS</p>
-						</td>
-					</tr>
-					<tr>
-						<td height="3" style="background-color: #969696;"></td>
-					</tr>
-					<tr>
-						<td style="font-size: 15px; padding: 5px ;">
-							<p>SHOP MENS</p>
-						</td>
-					</tr>
-					<tr>
-						<td height="3" style="background-color: #969696;"></td>
-					</tr>
-					<tr>
-						<td style="font-size: 15px; padding: 5px ;">
-							<p>SHOP WOMENS</p>
-						</td>
-					</tr>
-					<tr>
-						<td height="3" style="background-color: #969696;"></td>
-					</tr>
-					<tr>
-						<td style="font-size: 15px; padding: 5px ;">
-							<p>ACCESSORIES</p>
-						</td>
-					</tr>
-					<tr>
-						<td height="3" style="background-color: #969696;"></td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-
-<!-- SOCIAL MEDIA ICONS -->
-		<tr>
-			<td>
-				<table width="100%">
-					<tr>
-						<td style="text-align: center; padding: 20px 0 20px; background-color: #efefef;">
-							<a href="#"><img src="/img/dark-facebook.png" alt="" width="40"></a>
-							<a href="#"><img src="/img/dark-twitter.png" alt="" width="40"></a>
-							<a href="#"><img src="/img/dark-youtube.png" alt="" width="40"></a>
-							<a href="#"><img src="/img/dark-instagram.png" alt="" width="40"></a>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-
-<!-- BROWN BORDER -->
-		<tr>
-			<td height="5" style="background-color: #b8714e;"></td>
-		</tr>
-
+	<tr>
+		<td style="background-color: #26292b;">
+			<table width="100%">
+				<tr>
+					<td style="text-align: center; padding: 45px 20px;">
+						<a href="#"><img src="/img/modern-white.png" alt="" width="180"></a>
+						<p style="padding: 0 10px; color: #ffffff;">Modern HTML Email</p>
+						<p style="padding: 0 10px; color: #ffffff;">123 Street Road, State 55555</p>
+						<a href="#"><img src="/img/white-facebook.png" alt="" width="30"></a>
+						<a href="#"><img src="/img/white-twitter.png" alt="" width="30"></a>
+						<a href="#"><img src="/img/white-youtube.png" alt="" width="30"></a>
+						<a href="#"><img src="/img/white-linkedin.png" alt="" width="30"></a>
+						<a href="#"><img src="/img/white-instagram.png" alt="" width="30"></a>
+						<p style="padding: 0 10px; color: #ffffff;">SUBSCRIBE</p>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
 
 		</table>
 	</center>
+
 </body>
 </html>
 
-<div style=" width: 100%; text-align: center; line-height: 40px; font-size: 25px;">
-	<a href="https://responsivehtmlemail.com" target="_blank" style="color: #404577;text-decoration: none;">www.RoheetSkyHTMLEmail.com</a>
-</div>
